@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+h1 {
+    color: black; text-align: center;
+}
+h3 {
+    color: aqua;
+     text-align: right;
+}
+
+h2{
+    color: black; text-align: center;
+}
+.murad{
+    color: purple; text-align: left;
+}
+
+#rehman{
+    color: orange;
+}
+
+h4 {
+    color: black; text-align: center;
+}

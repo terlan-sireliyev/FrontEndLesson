@@ -1,0 +1,44 @@
+nav {
+    background-color: azure;
+    margin: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: cadetblue;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#Link1 {
+    color: red;
+}
+
+.main-image {}
+
+.text-center {
+    text-align: center;
+    color: black;
+}
+
+h1.text-center {
+    margin-bottom: 25px;
+
+}
+
+p.text-center {
+    margin-bottom: 15px;
+}
+
+.btn-wrapper button {
+    padding: 15px 25px;
+    background-color: chocolate;
+}
+
+h4 {
+    text-align: right;
+}
+
+section {
+
+}

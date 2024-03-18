@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(43, 197, 138);
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    margin-right: 20px;
+    text-decoration-line: none;
+    color: black    
+}
+
+footer{
+    background-color:blueviolet;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+p {
+    display: block;
+}
+
+a {
+    /* margin: 15px;   margin qebul elemir (saq, sol) */
+    display: inline-block;
+    width: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    margin: 15px;
+}
+
+h4 {
+    /* display: none; */
+    /* visibility: none; gizledilmis */
+    /* opacity: 1; seffafliq */
+    opacity: 1;
+}
+
+.text {
+    color: blue !important;
+}
+
+p {
+    color: blueviolet;
+}
+
+#main-text {
+    color: green;
+}
+
+[data-id="15"] {
+    text-align: center;
+}
+
+.text .main-text {
+    font-size: 15px;
+}
+
+img {
+    object-fit: cover;
+}
