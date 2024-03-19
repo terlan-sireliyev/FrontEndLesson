@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+  --esas-reng: red;
+  --ikici-reng: blue;
+}
+
+.box {
+  padding: 20px;
+  background-color: chocolate;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.box-1 {
+  background-color: red;
+  /* position: absolute; */
+  border: 1px solid #000;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* .box-container {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  background-color: cadetblue;
+  position: relative;
+  right: 20px;
+}
+
+.child-box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 25px;
+} */
+
+/* .box-4 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: cadetblue;
+} */
+
+header {
+  height: 100px;
+  background-color: cadetblue;
+}
+
+nav {
+  height: 50px;
+  background-color: chocolate;
+  width: 100%;
+  position: sticky;
+}
+
+main {
+  height: 150px;
+  background-color: aqua;
+}
+
+/* psudo  */
+
+p,
+input {
+  margin: 50px;
+}
+
+p::before {
+  content: "₼";
+  font-size: 16px;
+  color: var(--ikici-reng);
+  margin-left: 5px;
+}
+
+p::selection {
+  background-color: black;
+  color: red;
+}
+
+input {
+  color: cadetblue;
+}
+
+input::placeholder {
+  color: red;
+}
+
+nav {
+  height: auto;
+  padding: 20px;
+}
+
+/* nav a {
+  color: var(--esas-reng);
+  text-decoration: none;
+  margin-right: 15px;
+  position: relative;
+} */
+
+nav a::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.5s;
+}
+
+/* psodu classes */
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* 0 1 2 3 4 5 6 ... */
+
+/* nav a:nth-child(2n + 1) {
+  color: red;
+  font-size: 1rem;
+} */
+
+input:focus::placeholder {
+  color: green;
+}
